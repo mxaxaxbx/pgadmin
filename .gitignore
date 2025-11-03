@@ -1,0 +1,81 @@
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.*.local
+
+# Docker volumes and data
+pgadmin_data/
+*.data/
+volumes/
+
+# Docker logs
+*.log
+docker-compose.log
+logs/
+
+# Python (pgAdmin is Python-based)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# pgAdmin specific
+pgadmin_session_store/
+.pgadmin/
+
+# Docker Compose override files
+docker-compose.override.yml
+docker-compose.*.yml
+!docker-compose.yml
+
+# Backup files
+*.sql.backup
+*.dump
