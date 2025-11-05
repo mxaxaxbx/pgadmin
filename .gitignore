@@ -79,3 +79,5 @@ docker-compose.*.yml
 # Backup files
 *.sql.backup
 *.dump
+
+deploy.sh
