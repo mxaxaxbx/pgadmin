@@ -192,4 +192,3 @@ For issues related to:
 - **pgAdmin functionality**: Visit [pgAdmin Support](https://www.pgadmin.org/support/)
 - **Docker setup**: Check Docker and Docker Compose documentation
 - **This project**: Open an issue in the project repository
-
